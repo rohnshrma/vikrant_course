@@ -1,53 +1,24 @@
-// import myObject from "./person.js"
-// import data from "./person.js"
-
-// console.log(data);
-
-// import {clean,pi} from "./utility.js"
-
-// import {clean as cleaning , pi as myPi} from "./utility.js"
-
-// cleaning()
-
-// console.log(myPi);
-
-//  classes
-
-// class Person {
-//   constructor() {
-//     this.name = "rohan sharma";
+// es6
+// class Car{
+//   constructor(){
+//     this.name = "mustang"
+//     this.brand = "ford"
+//     this.year = 1998
 //   }
-
-//   details() {
-//     console.log(this);
-//     console.log(this.name);
-//     console.log("hello world");
+//   details(){
+//       console.log("the name of the car is " + this.name)
 //   }
 // }
 
-// const rohan = new Person();
+// var car1 = new Car()
+// console.log(car1.details())
 
-// // rohan.details()
+// es7
+// class Car{
+//   name = "mustang"
+//   brand = "ford"
+//   year = 1998
 
-// class Human extends Person {
-//   constructor() {
-//     super();
-//     this.isHuman = true;
-//   }
 // }
-
-
-// const h1 = new Human();
-// console.log(h1.isHuman)
-
-
-
-// import person from "./person.js";
-// console.log(person.name)
-
-
-
-import {clean,pi} from "./utility.js"
-clean()
-
-console.log(pi)
+// var c2 = new Car()
+// console.log(c2);
